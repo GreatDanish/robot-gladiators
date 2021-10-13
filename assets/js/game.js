@@ -28,8 +28,8 @@ var fight = function() {
   console.log(
     enemyName + " attacked " + playerName + ". " + playerName + " now has " + playerHealth + " health remaining."
   );
-  // check player's health
-if (playerHealth <= 0) {
+  // check player's health 
+  if (playerHealth <= 0) {
   window.alert(playerName + " has died!");
 } 
 else {
